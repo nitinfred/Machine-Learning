@@ -15,7 +15,7 @@ from sklearn.metrics import ConfusionMatrixDisplay
 from matplotlib.lines import Line2D
 
 # Load Dataset 
-df = pd.read_csv("data/wgm.csv")
+df = pd.read_csv("wgm.csv")
 df = df.loc[:, ['Age', 'age_var2',  'age_var3', 'Gender', 'Education', 'EMP_2010', 'Household_Income', 'wbi', 'MH1', 'MH6', 'Subjective_Income', 'MH7A']]
 print(df)
 
